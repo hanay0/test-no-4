@@ -1,0 +1,926 @@
+@font-face
+{
+    font-family: 'Raleway-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Raleway-Regular.ttf');
+    
+}
+
+
+@font-face
+{
+    font-family: 'Raleway-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Raleway-Bold.ttf');
+    
+}
+
+
+
+
+body{
+    background: #FFF;
+    font-family: 'Raleway', sans-serif
+}
+
+.clear{
+    clear: both
+}
+
+.container{
+    width: 1170px;
+    margin:0 auto;
+    background-color: #DDD
+}
+
+
+/* start navbar*/
+
+navbar{
+    width: 100%;
+    float: left;
+}
+
+
+/*
+navbar .container{
+    width: 1170px;
+    background-color: #000;
+    margin: auto;
+}
+*/
+
+navbar .container img{
+    float: left
+}
+
+navbar .container ul{
+    list-style: none;
+    float: right;
+    padding-top: 5px;
+    font-weight: bolder
+}
+
+navbar .container ul li{
+    display: inline-block;
+
+}
+
+
+navbar .container ul li a{
+    text-decoration: none;
+    color: #777;
+    text-transform: capitalize;
+    padding: 20px;
+    font-size: 13px;
+    font-family: 'Raleway-Bold',sans-serif
+}
+
+
+
+navbar .container ul li a:hover{
+    color: #80AC22
+}
+
+
+/*end navbar*/
+
+
+
+/*start header*/
+
+header{
+    width: 100%;
+    background-image: url(../images/snow-mountains-background-17156-17713-hd-wallpapers.jpg);
+    background-size: cover;
+    height: 600px;
+    float: left;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+
+header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(69, 69, 69, .5);
+    color: #FFF ;
+    text-align: center;
+    
+}
+
+header .content{
+    width: 400px;
+    padding: 10px;
+    margin: 200px auto;
+    text-transform: uppercase;
+}
+
+header .content h1{
+    letter-spacing: -2px;
+    font-weight: normal;
+    font-family: 'Raleway-Regular',sans-serif
+    
+}
+
+
+
+header .content p{
+    font-size: 23px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Raleway-Bold',sans-serif
+
+}
+
+
+
+header .content button{
+    border: none;
+    background-color: #80ac22;
+    width: 220px;
+    height: 40px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    font-family: 'Raleway-Bold',sans-serif}
+
+header .overlay .content button:hover{
+    color: #80ac22;
+    background-color: #FFF;
+}
+
+
+/*end header*/
+
+
+
+
+/*start features*/
+
+.features{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+
+.features div{
+    width: 25%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.features div img{
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    float: left
+}
+
+
+.features div h3 {
+    margin-left: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    border-bottom: 2px solid #000;
+    float: left;
+    font-family: 'Raleway-Bold',sans-serif;
+    text-transform: capitalize;
+    color: #555
+}
+
+.features div p {
+    text-align: left;
+    float: left;
+    font-size: 15px;
+    font-family: 'Raleway-Regular',sans-serif;
+    
+}
+
+
+
+/*end features*/
+
+/*start provide area*/
+
+.provideSolutions{
+    width: 100%;
+    float: left;
+    background-image: url(../images/Floating-market-in-thailand-1024x728.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.provideSolutions .overlay {
+ position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(69, 69, 69, .6);
+    color: #ffffff ;
+    text-align: center;
+
+}
+
+.provideSolutions .content{
+    width: 60%;
+    float: left;
+    margin-left: 220px;
+    margin-top: 100px;
+    text-align: left
+
+}
+
+.provideSolutions .content h1{
+  font-family: 'Raleway-Bold',sans-serif;
+    margin-bottom: 5px
+}
+
+
+/*sloution word with different color*/
+.provideSolutions .content h1 #sol{
+    color: #80ac22;
+
+}
+
+.provideSolutions .content p{ /*the p under h1*/
+    float: left;
+    text-align: left;
+    display: block;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.provideSolutions .content p .same{ /*the two words that have background*/
+    background-color: #FFF;
+    color: #000;
+        
+}
+
+
+
+.provideSolutions .content .text{ /*the big paragraph*/
+    line-height: 1.5em;
+    font-family: 'Raleway-Regular',sans-serif;
+    font-size: 13px;
+}
+
+
+/*End provide area*/
+
+
+
+/*start about area*/
+
+
+
+.about{
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+    margin-bottom: 200px;
+}
+
+.about div{
+    display: inline-block;
+    margin-left: 5%
+}
+
+/* start the div in the left*/
+
+.about .left{
+    width: 40%;
+    float: left
+}
+
+.about .left h1{
+    margin-top: 5px;
+    text-transform: capitalize;
+    font-family: 'Raleway-Bold',sans-serif;
+    color: #93ca3b
+}
+
+.about .left p:first-of-type{
+    color: #343434;
+    font-family: 'Raleway-Bold',sans-serif;
+
+}
+
+.about .left p:last-of-type{
+    font-family: 'Raleway-Regular',sans-serif;
+    color: #343434;
+    line-height: 1.8em
+}
+
+
+
+
+/*start skills bar - the div in the right*/
+
+.about .right{
+    width: 45%;
+    float: left;
+    padding: 5px;
+    text-transform: capitalize;
+    color: #343434;
+    font-family: 'Raleway-Regular',sans-serif;
+
+} 
+
+
+
+
+
+/* the classes which are used in skills bar*/
+
+.father{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(209, 209, 209, .4);
+    margin-left: 0 !important;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.webDesign, .multimedia, .sem, .customBranding{
+    height: 10px;
+    display: block !important;
+    background-color: #93CA3B;
+    margin-left: 0 !important;
+    text-align: right;
+    color: white;
+    border-radius: 5px;
+}
+
+.multimedia{
+    width: 80%;
+}
+
+
+.sem{
+    width: 90%;
+}
+
+.customBranding{
+    width: 70%;
+}
+
+
+.right p{
+    display: inline;
+    padding-right: 250px;
+}
+
+
+
+
+/*team area*/
+
+.team{
+    width: 100%;
+    float: left;
+    margin-bottom: 70px;
+}
+
+.team .members{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team .members h1{
+    margin: 0;
+    text-align: center;
+    font-family: 'Raleway-Bold',sans-serif;
+    text-transform: capitalize;
+    color: #232323
+}   
+
+.team .members .member{
+    width: 30%;
+    display: inline-block;
+    margin: 0 auto;
+    margin: 15px;
+    color: #343434
+}
+
+
+.team .members .member img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    padding: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.team .members .member img:hover{
+    border: .5px solid #9bd02c;
+    opacity: .5;
+
+}
+
+
+.team .members .member span{
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Raleway-Bold',sans-serif;
+
+}
+
+.team .members .member span:first-of-type{
+    font-size: 15px;
+    text-transform: capitalize
+}
+
+
+.team .members .member span:last-of-type{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #93CA3B
+}
+
+.team .members .member p{
+    font-family: 'Raleway-Regular',sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+}
+
+/*font awesome icons*/
+.team .members .member ul{
+    list-style: none;
+    padding-right: 50px;
+    
+    
+}
+.team .members .member ul li{
+    display: inline-block;
+}
+
+.team .members .member ul li a{
+    color: #232323;
+    padding: 20px;
+    transition: all .3s ease-in;
+}
+
+.team .members .member ul li a:hover{
+    color: #93ca3b;
+}
+
+
+
+
+/*start newsletter area*/
+
+.newsletter{
+    width: 100%;
+    float: left;
+    background-image: url(../images/defining-your-ideal-client-image2-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+
+
+
+.newsletter .newsletterContent{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+
+.newsletter .newsletterContent h1{
+    font-family: 'Raleway-Bold',sans-serif;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+
+.newsletter .newsletterContent p{
+    font-size: 15px;
+    color: #FFF;
+    font-family: 'Raleway-Regular',sans-serif;
+    margin-bottom: 30px;
+}
+
+
+.newsletter .newsletterContent input[type="email"]{
+    background:none;
+    font-family: 'Raleway-Regular',sans-serif;
+    border: 1px solid #FFF;
+    color: #FFF;
+    width: 340px;
+    padding: 10px;
+}
+
+/*to change placeholder color*/
+.newsletter .newsletterContent input[type="email"]::placeholder{
+    color: #FFF
+}
+
+
+
+.newsletter .newsletterContent input[type="submit"]{
+    background-color: #93C93A;
+    color: #FFF;
+    font-family: 'Raleway-Regular',sans-serif;
+    border: none;
+    padding: 11px;
+    width: 150px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+
+
+
+/*start pricing area*/
+
+
+
+.pricing{
+    width: 100%;
+/*    background-color: aqua;*/
+    float: left;
+    margin-bottom: 70px;
+}
+
+.pricing .pricingPlans{
+    width: 90%;
+/*    background-color: red;*/
+    height:500px;
+    margin: 0 auto;
+    text-align: center
+}
+.pricing .pricingPlans h1{
+    text-transform: capitalize;
+    color: #343434;
+    font-family: 'Raleway-Bold',sans-serif;
+    margin-bottom: 20px;
+}
+
+
+
+.pricing .pricingPlans div{
+    width: 22.5%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #cccccc;
+    transition: all .5s ease-out
+}
+
+.pricing .pricingPlans div:hover{
+    background-color: #000;
+}
+
+
+/*class with jquery*/
+
+
+
+.pricing .pricingPlans div h1{
+    margin-bottom: 30px;
+    color: #93c93a;
+    font-family: 'Raleway-Bold',sans-serif;
+
+}
+
+.pricing .pricingPlans div ul{
+    list-style: none;
+    padding-right: 40px;
+}
+
+.pricing .pricingPlans div ul li{
+    margin-bottom: 40px;
+    color: #343434;
+    font-family: 'Raleway-Regular',sans-serif;
+}
+
+.pricing .pricingPlans div button{
+    margin-bottom: 50px;
+    padding: 5px 30px;
+    color: #fff;
+    background-color:#93c93a;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Raleway-Regular',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.pricing .pricingPlans div button:hover{
+    color: #93c93a;
+    background-color: #FFF
+}
+
+/*divs positions to set different height to each one*/
+
+.pricing .pricingPlans div:first-of-type{
+    margin-top: 20px;
+}
+
+
+.pricing .pricingPlans div:nth-of-type(2){
+    position: relative;
+    top: 30px;
+}
+
+.pricing .pricingPlans div:nth-of-type(3){
+    position: relative;
+    top: -10px;
+}
+
+
+.pricing .pricingPlans div:last-of-type{
+    position: relative;
+    top: 30px;
+}
+
+
+
+/* start recent projects*/
+
+.recentProjects{
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.recentProjects .projects{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.recentProjects .projects h1{
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-family: 'Raleway-Bold',sans-serif;
+}
+
+.recentProjects .projects ul{
+    list-style: none;
+}
+
+
+.recentProjects .projects ul li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #e3e3e3;
+    color: #999;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: 'Raleway-Regular',sans-serif;
+}
+
+/*start divs which contains photos*/
+
+.recentProjects .projects div{
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+}
+
+
+.recentProjects .projects div img{
+    width: 300;
+    height: 250px;
+}
+
+
+
+
+
+/* start about us*/
+
+
+
+
+.aboutUs{
+    width: 100%;
+    float: left;
+    background-image: url(../images/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-bottom: 120px;
+    margin-bottom: 100px;
+}
+
+
+.aboutUs .left{
+    width: 90%;
+    display: inline-block;
+}
+
+/*solution company area*/
+
+
+.aboutUs .left .bioOne{
+    width: 25%;
+    margin-top: 100px;
+    float: left;
+    text-align: left;
+}
+
+.aboutUs .left .bioOne h2{
+    color: #FFF;
+    font-family: 'Raleway-Bold',sans-serif;
+}
+
+.aboutUs .left .bioOne p{
+    line-height: 1.7em;
+    color: #FFF;
+    font-family: 'Raleway-Regular',sans-serif;
+
+}
+
+
+
+
+.aboutUs .left .bioOne ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.aboutUs .left .bioOne ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.aboutUs .left .bioOne ul li a{
+    color: #93c93a;
+    padding: 10px 10px;
+    transition: background-color .3s ease-in
+        
+}
+
+.aboutUs .left .bioOne ul li a:hover{
+    background-color: #FFF
+}
+
+
+
+
+/*visit office area*/
+
+.aboutUs .bioTwo{
+    width: 25%;
+    margin-top: 100px;
+    float: left;
+    text-align: left
+}
+
+.aboutUs .bioTwo h3{
+    margin-bottom: 40px;
+    color: #FFF;
+    font-family: 'Raleway-Bold',sans-serif;
+    padding-left: 10px;
+}
+
+
+
+.aboutUs .bioTwo ul{
+    list-style: none;
+    padding: 0
+}
+
+.aboutUs .bioTwo ul li{
+    padding-bottom: 30px;
+    color: #FFF;
+    font-family: 'Raleway-Regular',sans-serif;
+}
+
+
+.aboutUs .bioTwo ul li .fas{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #93c93a
+}
+
+
+/*start login form*/
+
+
+.aboutUs .form{
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-left: 60px
+}
+
+
+.aboutUs .form input[type="text"]{
+    padding: 12px;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #888;
+    font-family: 'Raleway-Regular',sans-serif;
+}
+
+
+.aboutUs .form textarea{
+    display: block;
+    width: 450px;
+    height: 130px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding: 5px;
+    color: #888;
+    font-family: 'Raleway-Regular',sans-serif;
+
+
+}
+
+
+.aboutUs .form input[type="submit"]{
+    float: right;
+    margin-right: 20px;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    font-family: 'Raleway-Bold',sans-serif;
+    font-size: 13px;
+}
+
+.aboutUs .form input[type="submit"]:hover{
+    background-color: #80B037;
+    transition: all .3s ease-in-out
+
+}
+
+
+
+
+/*start footer*/
+
+footer{
+    width: 100%;
+    float: left;
+    color: #232323;
+    font-size: 15px;
+    font-family: 'Raleway-Regular',sans-serif;
+}
+
+footer .copy{
+    margin-left: 100px;
+    width: 30%;
+    display: inline-block;
+    float: left
+}
+
+
+
+footer .socialMedia{
+    float: left;
+    margin-left: 300px;
+}
+
+
+footer .socialMedia ul{
+    list-style: none
+}
+
+footer .socialMedia ul li{
+    display: inline-block;
+}
+
+footer .socialMedia ul li a{
+    color: #8d8d8d;
+    padding: 20px;
+}
+
